@@ -1,0 +1,335 @@
+
+
+/*regole generali*/
+header {
+    background-color: #0702bc;
+    height: 95px;
+ }
+ 
+ #logo{
+     float:left;
+     height: 80%;
+     width: auto;
+     min-height: 20%;
+     max-width: 50%;
+     margin-left:5%;
+     }
+    
+ nav ul li {
+     display:inline-block;
+     margin:0% 5% 5% 0%;
+     font-family: 'Kanit', sans-serif;
+     font-size: 1.2em;
+ }
+ ul{
+     text-align: center;
+ }
+ #login{
+     margin:2% 5% 5% 10%;
+ }
+ body{
+     margin:0%;
+     background-color:#0702bc;
+     background: linear-gradient(to bottom,  #0702bc, white, #0702bc); 
+     scroll-behavior: smooth;
+ }
+ 
+ main {
+     text-align: center;
+     font-family: 'Outfit', sans-serif;
+ }
+ h1{
+    text-align: center;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    opacity: 88%;
+    font-size: 1.5em;
+    margin-top: 3%;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+ a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:#be61c6;
+}
+.active{
+    border-radius: 90%;
+    padding: 12px 22px 12px 22px;
+    border: solid 2px #be61c6;
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer{
+    margin:5% 0% 3% 0%;
+    text-align: center;
+}
+h3{
+    margin:1%;
+    color:whitesmoke;
+    font-size: 1.2em;
+    font-family: 'Outfit', sans-serif;
+}
+.loghi{
+    align-items: center;
+    width: 40px;
+    height: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: 0.3s ease-in-out;
+}
+.loghi:hover{
+    width: 3%;
+}
+#creator{
+    margin-top:4%;
+    text-align: center;
+}
+#AS{
+    margin: 0.5% 0% 0% 0%;
+}
+#doc{
+    color:black;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+#icon{
+    font-size:larger;
+}
+
+/*regole homepage*/
+
+#testo1{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #000;
+    
+}
+#testo2{
+    position:absolute;
+    top: 94%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-size: 1.9em;
+    line-height: 0.5;
+    color:whitesmoke;
+    letter-spacing:2px;
+    font-family: 'Outfit', sans-serif;
+    text-shadow: 2px 2px 1px #000;
+}
+ #img {
+    background-size: cover;
+    background-position: center;
+    margin:none;
+    width: 100%;
+    opacity: 90%;
+    filter: blur(2px) brightness(89%);
+
+}
+#button{
+    position:absolute;
+    border: solid 1px;
+    border-radius:20px;
+    background-color:#0702bc;
+    padding: 25px 35px;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: padding 0.3s ease-in-out;
+}
+#button:hover{
+    padding:2%;
+    box-shadow: 3px 5px 5px 1px rgb(10, 10, 10);
+
+}
+#linkbottone{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*regole eventipage*/
+#inlinea-1{
+    display: flex;
+    margin: 5% 3% 0% 22%;
+}
+#inlinea-2{
+    display: flex;
+    margin: 5% 3% 2% 22%;
+}
+#inlinea-3{
+    display: flex;
+    margin: 5% 3% 2% 22%;
+}
+.containercantati{
+    margin:0% 8% 2% 8%;
+    transition: 0.3s;
+}
+.containercantati:hover{
+    transform: scale(1.2);
+}
+
+.fotocantante {
+    width:190px;
+    height: auto;
+    border: solid 3px #0702bc;
+    border-radius: 18px;
+    padding:10px;
+    box-shadow: 10px -5px 10px 0.5px rgb(44, 44, 44);
+    margin-top:5%;
+ }
+ .nomecantante{
+    margin:1%;
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.hiden{
+    margin:.1% 0% 0% 0%;
+    font-size:0.8em;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.iconainfo{
+    margin-right:0.2%;
+}
+.ticketbutton{
+    margin: 0%;
+    border: solid 1px black;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding: 12px 35px;
+    background-color:#0702bc; 
+    color: whitesmoke;
+    transition: 0.3s;
+}
+.ticketbutton:hover{
+    box-shadow: 5px 3px 5px 0.5px rgb(10, 10, 10);
+}
+
+/*regole gallerypage*/
+.contenitoregalleria{
+    border: solid 3px #0702bc;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 10px -5px 10px 0.5px rgb(26, 26, 26);
+    float:left;
+    margin: 5% 10% 5% 15%;
+    transition: 0.3s;
+}
+.contenitoregalleria:hover{
+    transform: scale(1.1);
+}
+
+iframe{
+    filter:brightness(70%);
+    
+}
+iframe:hover{
+    filter: brightness(100%);
+}
+h2{
+    margin: 1% 0% 0% 0%;
+    color:black;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+}
+.infogalleria{
+    margin: 3% 0% 0% 0%;
+    color:black;
+    font-size:1em;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.iconagalleria{
+    margin-right: 5px;
+}
+
+/*regole aboutpage*/
+.contenitoreabout1{
+    margin: 8% 5% 0% 8%;
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align:left;
+}
+.contenitoreabout2{
+    text-align: right;
+    margin: 7% 8% 0% 5%;
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+}
+.special{
+    color:#0702bc;
+    font-size: 1.2em;
+}
+#superspecial{
+    color:#0702bc;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Kanit' sans-serif;
+}
+#superspecial:hover{
+    text-decoration: underline;
+    color:#be61c6;
+}
+#ultimariga{
+    font-size:1.2em;
+    text-align: center;
+    margin-left: 12%;
+}
+.tutto{
+    display:flex;
+}
+#fotoabout1{
+    width: 25%;
+    height: auto;
+    margin-right:8%;
+    margin-top:8%;
+    box-shadow: 10px -5px 10px 0.5px rgb(26, 26, 26);
+    border: solid 3px #0702bc;
+    border-radius: 18px;
+    padding:15px;
+    filter:brightness(70%);
+    transition: 0.3s;
+}
+#fotoabout1:hover,
+#fotoabout2:hover{
+    filter:brightness(100%);
+}
+#fotoabout2{
+    width: 25%;
+    height: auto;
+    margin-left:8%;
+    margin-top:7%;
+    box-shadow: -10px -5px 10px 0.5px rgb(26, 26, 26);
+    border: solid 3px #0702bc;
+    border-radius: 18px;
+    padding:15px;
+    filter:brightness(70%);
+    transition: 0.3s;
+}
